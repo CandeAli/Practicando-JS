@@ -82,13 +82,101 @@ if(true) {
 
 
 
+            /***OPERADORES DE COMPARACION***/
+
+
+// pueden devolver un true o false
+
+//Hay varios tipos como:
+
+/*
+== -->compara valor
+=== -->compara valor y tipo, estricto
+!=  -->si algo es distinto de otra cosa 
+!== --> igual
+< --> menor que
+>  --> mayor que
+<= --> si es menor o igual
+>=  --> si es mayor o igual
+
+*/
+
+
+//ejemplos
+
+/*
+alert( 2 > 1 ); // true (correcto)
+alert( 2 == 1 ); // false (incorrecto)
+alert( 2 != 1 ); // true (correcto)
+*/
+
+
+
+
+
+
+            /**CONDICIONALES***/
+
+//se utilizan gralmente con los operadores 
+//vemos si la condicion se va a cumplir o no
+
+
+//ejemplo con -- if --
+
+/*
+let edad = 13;
+
+if (edad >= 13) {
+    console.log('Puedes ingresar'); 
+}
+*/
+
+
+// ejemplo con -- else -- 
+
+/*
+let edad = 18;
+
+if (edad >= 13) {
+    console.log('puede ingresar')
+} else {
+    console.log('no puede ingresar')
+}
+*/
+
+//siempre se ejecuta una condicion, nunca las dos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             /**DOCUMENT WRITE**/
 
 /*Escribe dentro de nuestro HTML*/
 
+/*
 document.write('Hola js')
+*/
+
 
 
 
@@ -97,12 +185,18 @@ document.write('Hola js')
 
 /*Selecciona un elemento por su ID, Class, etc*/
 
-const titulo = document.getElementById('titulo');
+/*const titulo = document.getElementById('titulo');
 
 
 //si le quiero cambiar el valor al elemento
 
-titulo.textContent = 'Holaaa js'
+titulo.textContent = 'Holaaa js'*/
+
+
+
+
+
+
 
 
 
@@ -136,6 +230,9 @@ var sumatotal = primera + segunda;
 
 document.write(sumatotal)
 */
+
+
+
 
 
 
