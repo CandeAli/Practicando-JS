@@ -144,6 +144,7 @@ if (edad >= 13) {
 }
 */
 
+// dato: en el else no va parentesis
 //siempre se ejecuta una condicion, nunca las dos
 
 
