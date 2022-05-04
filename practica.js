@@ -118,6 +118,16 @@ titulo.textContent = 'Holaaa js'
 
 /**=====ACTIVIDAD --> EJERCICIO UNIDAD 1======*/
 
+/**1- Realizar:
+-un script en javascript que declare:
+
+    -una variable llamada primera con un valor numérico = 40
+    -una variable llamada segunda con un valor numérico = 16
+    -una variable llamada sumatotal con un valor numérico de la suma de las dos variables anteriores.
+    -y una salida por pantalla en HTML que muestre un mensaje y el valor de sumatotal: */
+
+
+//Respuesta
 /*
 var primera = 40;
 var segunda = 16;
