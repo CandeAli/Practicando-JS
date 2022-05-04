@@ -135,17 +135,57 @@ if (edad >= 13) {
 // ejemplo con -- else -- 
 
 /*
-let edad = 18;
+let edad = 11;
+
 
 if (edad >= 13) {
     console.log('puede ingresar')
 } else {
     console.log('no puede ingresar')
 }
-*/
+
 
 // dato: en el else no va parentesis
 //siempre se ejecuta una condicion, nunca las dos
+
+
+
+//si quiero que el mensaje se muestre en pantalla:
+
+let edad = 11;
+
+let mensaje = document.querySelector('#mensaje');
+
+if (edad >= 13) {
+    console.log('puede ingresar')
+    mensaje.textContent = 'Puede ingresar'
+} else {
+    console.log('no puede ingresar')
+    mensaje.textContent = 'no puede ingresar'
+}
+*/
+
+
+
+
+            /** Funciones: CONFIRM**/
+
+//sirve para mostrar cosas, ocultarlas
+
+
+//por ejemplo, si armo un nav en la pag, y me logeo puedo entrar al admin:
+
+/*
+let admin = true;
+
+bntAdmin = document.querySelector('.btn-admin');
+
+if (admin == true) {
+    btnAdmin.classList.remove('d-none');
+} else {
+    btnAdmin.classList.add('d-none');
+}
+*/
 
 
 
