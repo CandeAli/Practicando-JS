@@ -81,6 +81,7 @@ if(true) {
 
 
 
+//TODO : BORRAR
 
             /***OPERADORES: DE COMPARACION***/
 
@@ -138,17 +139,28 @@ alert( 2 != 1 ); // true (correcto)
             /**OPERADORES: DE INCREMENTO Y DECREMENTO**/
 
 
-//incremento: mapra sumarle 
+//incremento: para sumarle 
 //decremento: para restarle
 
 
 
+//puedo poner eñ signo antes o dsp
+
+/*
+let num = 2;                    let num = 2;
+num++;                          numero --;
+console.log(num);               console.log(num);
 
 
 
+//
+
+let num = 2;                    let num = 2;        
+const sufijo = num++;           const prefijo = --num;
+console.log(sufijo, num);       console.log(prefijo,num);
 
 
-
+*/
 
 
 
