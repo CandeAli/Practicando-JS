@@ -82,7 +82,7 @@ if(true) {
 
 
 
-            /***OPERADORES DE COMPARACION***/
+            /***OPERADORES: DE COMPARACION***/
 
 
 // pueden devolver un true o false
@@ -109,6 +109,45 @@ alert( 2 > 1 ); // true (correcto)
 alert( 2 == 1 ); // false (incorrecto)
 alert( 2 != 1 ); // true (correcto)
 */
+
+
+
+
+            /**OPERADORES: DE ASIGNACION */
+
+//cuando creo una variable y le pongo = mas un valor
+// se puede usar para sumarle, restalre, etc.
+
+
+//Ejemplos:
+
+/*
++=  --> num += 2  / num = num +2
+-=  --> num -= 1  / num = num -1
+*=  --> num *= 3  / num = num * 3
+/=  --> num /= 5  / num = num / 5
+
+*/
+
+
+
+
+
+
+
+            /**OPERADORES: DE INCREMENTO Y DECREMENTO**/
+
+
+//incremento: mapra sumarle 
+//decremento: para restarle
+
+
+
+
+
+
+
+
 
 
 
@@ -186,6 +225,20 @@ if (admin == true) {
     btnAdmin.classList.add('d-none');
 }
 */
+
+
+//ejemplo:
+
+/*
+const respuesta = confirm('¿estas seguro que quiere ingresar?');
+
+if (respuesta){
+    console.log('si, confirmar')
+} else {
+    console.log('no, cancelar')
+}
+*/
+
 
 
 
