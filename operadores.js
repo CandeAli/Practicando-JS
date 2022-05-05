@@ -79,10 +79,16 @@ console.log(sufijo, num);       console.log(prefijo,num);
 
 
 //Puedo poner el signo antes o dsp.
-//ejemplo 
+
+//Prefijo: primero se hace la cuenta, dsp se asigna
+//Sufijo: primero se asigna, y dsp se hace la cuenta
 
 
 
+//Ejemplo 
+
+
+/*
 let num = 2; 
 const sufijo = num++;         //si pongo el signo dsp, en la consola se va a mostrar: 2 3, es decir, primero se toma el valor del num, y dsp se incrementa
 console.log(sufijo, num);
@@ -93,4 +99,4 @@ let nume = 2;
 const prefijo = ++nume;       //si pongo el signo antes, se va a mostrar 3 3, porque primero se hace el calculo y dsp se asigna
 console.log(prefijo, nume);
 
-
+*/
