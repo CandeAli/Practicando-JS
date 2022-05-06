@@ -100,3 +100,27 @@ const prefijo = ++nume;       //si pongo el signo antes, se va a mostrar 3 3, po
 console.log(prefijo, nume);
 
 */
+
+
+
+
+            /*******OPERADORES: LOGICOS********/
+
+
+//nos permiten saber condiciones simples, si algo es igual a algo, si es verdadero, falso, etc
+//o por ej: si en una pagina se compr+o tanta cantidad de productos,etc 
+
+
+// OR= signo: || --> una cosa o la otra, "si compró x cant de productos, obtiene un cupon"
+
+//ejemplo
+
+let a = true;
+let b = true;
+
+result = a | b;
+
+console.log(result);
+
+
+//
