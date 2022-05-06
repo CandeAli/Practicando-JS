@@ -33,6 +33,8 @@ alert( 2 != 1 ); // true (correcto)
 
             /**OPERADORES: DE ASIGNACION */
 
+
+//
 //cuando creo una variable y le pongo = mas un valor
 // se puede usar para sumarle, restalre, etc.
 
@@ -44,6 +46,19 @@ alert( 2 != 1 ); // true (correcto)
 -=  --> num -= 1  / num = num -1
 *=  --> num *= 3  / num = num * 3
 /=  --> num /= 5  / num = num / 5
+
+-------
+
+x = y 
+x + y
+x - y
+
+
+en vez de poner:
+let numero = numero + 5;
+
+pongo:
+let numero += 5;
 
 */
 
@@ -107,20 +122,99 @@ console.log(prefijo, nume);
             /*******OPERADORES: LOGICOS********/
 
 
-//nos permiten saber condiciones simples, si algo es igual a algo, si es verdadero, falso, etc
+// realizan operaciones lógicas, dan como resultado 
+// un verdadero o un falso, y se utilizan para tomar decisiones en nuestros scripts
+// se utilizan operandos booleanos, como el true o false.
+
 //o por ej: si en una pagina se compr+o tanta cantidad de productos,etc 
 
 
-// OR= signo: || --> una cosa o la otra, "si compró x cant de productos, obtiene un cupon"
+
+/*
+--------------
+OR= signo: || --> se puede cumplir solo una condicion
+--------------
+*/
+
+
 
 //ejemplo
 
+/*
 let a = true;
 let b = true;
 
-result = a | b;
+result = a || b;
 
 console.log(result);
 
 
-//
+
+
+////tabla
+
+true   ||  true   =  true 
+true   ||  false  =  true    
+false  ||  true   =  false      
+false  ||  false  =  false   
+*/
+
+
+
+
+/**
+-------------
+AND= signo && ---> se tienen que cumplir todas las condiciones
+--------------
+*/
+
+//ejemplo
+
+/*
+let a = true;
+let b = true;
+
+result = a && b;
+
+console.log(result);
+
+
+
+
+////tabla
+
+true   &&  true   =  true 
+true   &&  false  =  false    
+false  &&  true   =  false      
+false  &&  false  =  false   
+*/
+
+
+
+
+
+
+/**
+--------------
+NOT = signo ! ---> invierten la condicion
+--------------
+*/
+
+
+//ejemplo
+
+/*
+let result = true;
+
+result = !result;
+
+console.log(result);
+
+
+
+
+////tabla
+
+!true   =  false 
+!false  =  true    
+*/
