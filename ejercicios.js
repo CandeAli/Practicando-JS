@@ -153,4 +153,39 @@ usuario decida si quiere ver el siguiente número, en caso de no querer seguir p
 
 
 
+/** 
+
+                EJERCICIO (obligatorio) 
+
+
+1- Ingresá en el siguiente cuadro el código HTML y Javascript correspondiente 
+para la creación de una página web que cumpla con los siguientes requisitos:
+
+Posea un script en javascript que utilice: 
+
+a)      bucles anidados y cálculos automáticos
+b)      genere las tablas de multiplicar del 9 al 11
+c)      muestre el resultado por pantalla en forma ordenada y descendente como el siguiente ejemplo:
+
+
+*/
+
+
+//respuesta:
+
+/*
+for (i=9; i<12; i++) {
+    document.write("<br><b>La tabla del " + i + ":</b><br>")
+    for (j=1; j<10; j++) {
+        document.write(i + " x " + j + ": ")
+        document.write(i*j)
+        document.write("<br>")
+    }
+}
+*/
+
+
+
+
+
 
